@@ -1,0 +1,53 @@
+body {
+  background-color: #a3a3a3;
+  background-image: url("../static/images/pattern.png");
+  background-size: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bookcover {
+  background-color: #b4d1da;
+  border-radius: 9px;
+  border: 1px solid #738186;
+  width: 960px;
+  height: 660px;
+  margin: 60% auto;
+  margin: 100px auto;
+  position: relative;
+}
+
+.bookdot {
+  border: 2px dashed white;
+  border-radius: 9px;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 15px;
+  bottom: 15px;
+}
+
+.page{
+  position: absolute;
+  background-color: white;
+  border: 3px solid #cccccc;
+  border-radius: 9px;
+  /**display: inline-block;* 
+  padding: 10px; margin: 0 auto; 얘도 굳이 필요가 없는.*/
+  
+ /** width: 880px;
+  height: 580px;
+  /** 정답 예시를 보면 left, right, top, bottom만 지정 되어있고
+  높이와 너비는 지정되어 있지 않음.*/
+
+  /**position 속성을 absolute 혹은 fixed로 적용한 후, 
+  top left bottom right를 모두 지정하면
+  width, height 지정하지 않고 상위요소의 크기에 따라 변하도록 만들 수 있다.*/
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+}

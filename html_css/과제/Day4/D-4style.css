@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'SLEIGothicTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    font-family: 'Noto Sans KR', sans-serif; 
+}
+#container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+}
+
+@font-face {
+    font-family: 'IM_Hyemin-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#hama { 
+    font-family: 'Noto Sans KR', sans-serif; 
+    background-color:#F08080; 
+    border-radius:0.5em;
+    border: darkred groove 4px; 
+}
+
+h2 { font-family: 'IM_Hyemin-Bold'; font-weight:bold;}
+
+a {
+    text-decoration:none;
+    color:#282828;
+}
+a:visited {
+    color:#282828;
+}
+
+.font-light {
+    font-weight: 400;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.p1,.p2 {
+    margin:10px; 
+    padding:10px;
+    float:left;
+}
+
+div {overflow:hidden;}
+
+.p2 a { 
+    text-decoration: double;
+    color:#4c14e7; 
+    background-color:lightseagreen; 
+}
+
+.container {
+    display:grid;
+}
+
+.colorstar { 
+    color:red; background-color:salmon; font-size:5rem;    
+    font-family: 'IM_Hyemin-Bold';
+}
+
+.css{
+    color:blueviolet; font-weight:bold;
+}
+
+.web{
+    color:orange; font-weight:bold;
+}
+
+.po{
+    color:saddlebrown; font-weight:bold;
+    font-family: 'Noto Sans KR', sans-serif; font-size:2em;
+}
+
+.we{
+    color:darkolivegreen; font-weight:bold;
+    font-family: 'IM_Hyemin-Regular'; font-size:2em;
+}
+
+.r{
+    color:lime; font-weight:bold;
+    font-family: 'IM_Hyemin-Bold'; font-size:2em;
+}
+
+.pi{
+    color:deeppink; font-weight:bold;
+}
+
+.padding-margin{
+    color: black; font-weight:bold; font-size:1em;
+    margin: 30px;
+    background-color: aqua;
+    padding: 15px;
+    border: 10px solid orange;
+}

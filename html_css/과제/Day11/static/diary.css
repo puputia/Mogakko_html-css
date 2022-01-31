@@ -1,0 +1,99 @@
+.date-box {
+     
+    flex-direction: row;
+    position: wrap;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    height: 3rem;
+  
+    border: 1px solid #e7e7e7;
+  
+    display: flex;
+    align-items: center;
+}
+  
+.today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #3b87ab;
+    font-weight: 700;
+}
+  
+.date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+.date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.scroll-box {
+    position: absolute;
+    overflow: auto;
+    margin-top: 4rem; 
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+     
+
+}
+  
+.color-red {
+      color: red;
+}
+  
+.color-blue {
+    color: blue;
+}
+
+.content{
+    position: static;
+    
+    text-align:center;    
+}  
+
+.text_d {
+    text-align: center;
+
+}
+
+.content1, .content2, .content3 {
+    border: solid #cccccc;
+    flex:0; 
+    margin: 15px;
+    
+    text-align:center;
+    line-height:22px; 
+    margin-bottom:20px;
+     
+    flex-direction:column;  
+}
+
+.button{
+    text-align: center;
+}
+
+.button>button:hover {
+    color:white; 
+    background-color: lightpink ;
+    transition: 500ms ease all; border-radius: 4px;
+}
+
+.button>button {
+    width:40%; 
+    padding:16px;
+    color:white; 
+    background-color: white;
+    border:0px;
+    font-family: 'DungGeunMo';
+  transition: 500ms ease all; 
+}

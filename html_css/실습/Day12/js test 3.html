@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JAVASCRIPT 테스트</title>
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+    <div id="text" class="hidden">텍스트</div>
+    <button id="button" onclick="getTextFile()">텍스트 파일 불러오기</button>
+    <script>
+        function getTextFile() {
+            var input = document.createElement("input");
+            input.type = "file";
+            input.accept = "text/plain";
+            input.onchange = function (event) {
+                processFile(event.target.files[0]);
+            };
+            input.click();
+        }
+
+        function processFile(file) {
+            var reader = new FileReader();
+            reader.readAsText(file, "utf-8");
+
+            reader.onload = function () {
+                document.getElementById("text").innerText = reader.result;
+            };
+        }    
+    </script>
+</body>
+</html>

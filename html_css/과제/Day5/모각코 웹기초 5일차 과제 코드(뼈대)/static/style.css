@@ -1,0 +1,59 @@
+body {
+  background-color: #a3a3a3;
+  /** body에 배경이미지 적용 */
+  background-image: url("../static/images/pattern.png");
+  /** 고정된 사이즈로 설정 */
+  background-size: 100px;
+
+  /** 기본 body 사이즈를 화면 크기로 고정 */
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bookcover {
+  /** 배경 색깔 지정  */
+  background-color: #b4d1da;
+  /** 모서리 둥글게 */
+  border-radius: 9px;
+  /** 윤곽선 */
+  border: 1px solid #738186;
+
+  /** 기본 너비, 높이 지정 (반응형 X) */
+  width: 960px;
+  height: 660px;
+  margin: 60% auto;
+
+  /** 좌우 마진을 auto(중앙에 배치), 상하 마진을 100px로 지정 */
+  margin: 100px auto;
+
+  /** .bookdot 요소에서 absolute 속성값을 이용하기 위해 position: relative 로 설정 */
+  position: relative;
+}
+
+.bookdot {
+  border: 2px dashed white;
+  border-radius: 9px;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 15px;
+  bottom: 15px;
+}
+
+.page{
+  position: absolute;
+  background-color: white;
+  border: 3px solid #cccccc;
+  border-radius: 9px;
+  display: inline-block;
+  padding: 10px; margin: 0 auto;
+  width: 880px;
+  height: 580px;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+}

@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Yeon+Sung&display=swap');
+.nanum-myoungjo_YeonSung { font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Yeon Sung', cursive; }
+
+body {
+    font-family: "Nanum Gothic", serif;
+    text-align: center;
+  }
+
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 { font-family: 'SDSamliphopangche_Outline'; text-align: center; }
+#Sanrio {
+    text-align: center;
+}
+#Sanrio img {
+    border-radius: 10px; 
+    border: 10px double black; 
+}
+ 
+.info1 {text-align:center;}
+ 
+#nav {
+    width:800px;
+    margin:0 auto;
+    border:1px solid #cccccc
+    overflow hidden;
+}
+
+#nav div {
+    width:150px;
+    height:100px;
+    line-height:100px;
+    float:left;
+    text-align:center;
+    font-size:1.5em;
+    border-top:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+    margin:5px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration:none;
+    color:#282828;
+}
+
+.info2 p
+    {display:inline-block;
+    text-align:center;
+    font-size:2em;}
+
+
+.table { overflow:hidden; }
+
+.table img
+    { margin:40px; padding: 30px auto; 
+    text-align: center;
+    float:right;}
+
+    i {color:blue;
+    font-weight:bold;
+    font-family: 'Yeon Sung', cursive;
+    font-size:30px;}

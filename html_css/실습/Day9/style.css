@@ -1,0 +1,13 @@
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+button:active {
+    background-color: red;
+    color: white;
+}
+
+input:focus {
+    background-color: yellow;
+}
